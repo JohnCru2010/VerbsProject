@@ -1,5 +1,14 @@
-function myFunction() {
-    document.getElementById("text").innerHTML = "Hello World!";
-    var zurullo = document.getElementById("button");
-    zurullo.value = "ALGOs";
+function ChangeBlue() {
+    var zurullo = document.getElementById("text");
+    zurullo.style.color = "blue";
+}
+
+function ChangeRed() {
+    var zurullo = document.getElementById("text");
+    zurullo.style.color = "red";
+}
+
+function ChangeGreen() {
+    var zurullo = document.getElementById("text");
+    zurullo.style.color = "green";
 }
